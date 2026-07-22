@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fadaf5;
+    font-family: 'Arial', sans-serif;
+
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.headerTitle {
+    font-size: 50px;
+    margin-left: 10px;
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header>img {
+    width: 150px;
+}
+
+section {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsHolder {
+    margin: 10px;
+}
+
+.inputsHolder input {
+    padding: 5px;
+    border: #9C27B0 1px solid;
+    border-radius: 5px;
+    margin: 0 15px;
+    color: #9C27B0;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+section button {
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 10px 3px pink;
+    background-color: antiquewhite;
+    color: darkmagenta;
+    cursor: pointer;
+    width: 300px;
+}
+
+.imageHolder {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageHolder img {
+    width: 500px;
+    border-radius: 10px;
+    border: black 1px solid;
+}
+
+.upperImageText {
+    position: absolute;
+
+    top: 20px;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
+
+.lowerImageText {
+    position: absolute;
+    bottom: 30px;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
